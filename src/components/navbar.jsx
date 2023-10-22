@@ -89,7 +89,7 @@ function Navbar() {
             <Link to="/achivements" className="px-4 md:px-0">Achivements</Link>
           </div>
           <div className="transition-all duration-300 ease-in-out">
-            <Link to={`${process.env.PUBLIC_URL}/resume.pdf`} target="_blank">
+            <Link to={`${process.env.PUBLIC_URL}/myResume.pdf`} target="_blank">
               <Button text="Resume" />
             </Link>
           </div>
