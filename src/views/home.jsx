@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Button from '../components/button'
 import { useTypingText } from '../hooks/useTypingText'
 
-const POSITIONS = ["Software Engineer.", "Web Developer.", "Front-end Developer."]
+const POSITIONS = ["Software Engineer.", "Web Developer.", "Mobile Developer."]
 
 function Home() {
 	const typingText = useTypingText(POSITIONS);
@@ -21,8 +21,11 @@ function Home() {
 					{typingText}
 				</p>
 				<p className="text-slate-400 text-justify">
-					I'm Final Year Computer Science student majoring in Software Engineering at the Universiti Malaya.
-					I am focusing on building accessible, inclusive and responsive web applications using modern JavaScript frameworks.
+				I'm a recent first-class graduate, having completed my studies in Computer Science with a major in Software Engineering at Universiti Malaya. 
+				I am focusing on building accessible, inclusive and responsive web and mobile applications using modern frameworks.
+				<br />
+				<br />
+				Currently, I'm thriving as a Software Engineering 1 at Dell Technologies, where I continue to pursue my passion in the field of computer science.
 				</p>
 				<div className="mt-12">
 					<Link to="mailto:leeyiwan2001@gmail.com">
